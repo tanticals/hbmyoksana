@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#501a2e">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="С днём рождения, Оксаночка. С любовью, от твоего Вадима.">
+  <meta property="og:title" content="Для Оксаночки ♡">
+  <meta property="og:description" content="С любовью, от твоего Вадима">
+  <meta property="og:type" content="website">
+  <title>Для Оксаночки — с любовью ♡</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'%3E%3Crect width='80' height='80' rx='18' fill='%23501a2e'/%3E%3Cpath d='M40 61 17 38C3 18 28 10 40 27 52 10 77 18 63 38Z' fill='%23ffeada'/%3E%3C/svg%3E">
+  <style>
+    @font-face{font-family:Album;src:url("assets/album-roman.woff") format("woff");font-style:normal;font-weight:500;font-display:swap}
+    @font-face{font-family:Album;src:url("assets/album-italic.woff") format("woff");font-style:italic;font-weight:500;font-display:swap}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:#512c32;background:#f6eee3;font-family:Georgia,"Times New Roman",serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit}
+    :focus-visible{outline:3px solid currentColor;outline-offset:5px}
+    [tabindex="-1"]:focus{outline:none}
+    .cover{color:#fff0dc;background:radial-gradient(ellipse at 51% 39%,#77304b 0%,#5a2036 44%,#3c1325 100%);overflow:hidden;position:relative;isolation:isolate}
+    .cover::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:url("assets/grain.png");opacity:.11}
+    .cover::after{content:"";position:absolute;inset:15px;z-index:5;pointer-events:none;border:1px solid #f8d8b24f}
+    .album{position:relative;isolation:isolate;min-height:680px;min-height:max(680px,100svh);max-width:1680px;margin:auto;display:grid;place-items:center}
+    .album-date,.cover-signature{position:absolute;left:50%;transform:translateX(-50%);margin:0;white-space:nowrap;z-index:4}
+    .album-date{top:max(35px,5.4%);font:500 .76rem/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.19em;text-transform:uppercase;color:#f2d9bd;display:flex;align-items:center;gap:14px}
+    .album-date::before,.album-date::after{content:"";width:33px;height:1px;background:#e9caae77}
+    .cover-signature{bottom:5.1%;font:italic 500 clamp(1.15rem,1.9vw,1.6rem)/1.3 Album,Georgia,serif;color:#f3d1bd}
+    .collage{position:absolute;inset:0;z-index:-1;pointer-events:none}
+    .print{position:absolute;margin:0;left:var(--x);top:var(--y);width:var(--w);aspect-ratio:var(--ratio,1.22);padding:clamp(4px,.52vw,8px);padding-bottom:clamp(10px,1.35vw,22px);background:linear-gradient(125deg,#fffaed,#f3e5d4);box-shadow:1px 3px 3px #240b172b,6px 17px 29px #210a1b6b;transform:translate(-50%,-50%) rotate(var(--angle));}
+    .print img{display:block;width:100%;height:100%;object-fit:cover;object-position:var(--focus,50% 50%)}
+    .summer{--x:16%;--y:24%;--w:23%;--angle:-11deg;--ratio:1.24;--focus:49% 45%;z-index:2}
+    .evening{--x:82%;--y:20%;--w:20.5%;--angle:8deg;--focus:50% 39%}
+    .hands{--x:10.6%;--y:59%;--w:15%;--angle:6deg;--ratio:.95;--focus:50% 46%}
+    .portrait{--x:90%;--y:53.5%;--w:18.3%;--angle:-7deg;--focus:72% 46%}
+    .instant{--x:23.5%;--y:80.5%;--w:15%;--angle:-7deg;--ratio:.98;--focus:49% 58%;z-index:2}
+    .kiss{--x:76.5%;--y:80.5%;--w:22%;--angle:7deg;--focus:59% 48%;z-index:2}
+    .summer::after,.kiss::after{content:"";position:absolute;left:50%;top:-4px;width:29%;height:clamp(14px,1.55vw,25px);background:repeating-linear-gradient(91deg,#d9b58608 0px 2px,#d9b5862b 3px 4px),#dfbe8c9e;box-shadow:0 1px 2px #30211222;transform:translateX(-50%) rotate(-6deg);clip-path:polygon(2% 0,97% 0,100% 14%,98% 28%,100% 45%,98% 62%,100% 84%,98% 100%,1% 100%,3% 80%,0 65%,3% 50%,0 30%,3% 16%)}
+    .dedication{position:relative;text-align:center;padding:1rem .5rem}
+    .dedication::before{content:"";position:absolute;z-index:-1;inset:-10% -14%;background:radial-gradient(ellipse,#571e32bb 0%,#571e3233 58%,transparent 73%);pointer-events:none}
+    .flourish{display:flex;align-items:center;justify-content:center;gap:13px;margin:0 0 1.2rem;color:#e9b99f}
+    .flourish::before,.flourish::after{content:"";width:35px;height:1px;background:linear-gradient(90deg,transparent,currentColor)}
+    .flourish::after{transform:rotate(180deg)}
+    .heart{display:block;width:1.2rem;height:1rem;background:currentColor;clip-path:path("M9.6 15.2C7.3 13.7 0.6 9.4 0.6 4.9 0.6 0.6 6.4 -1.1 9.6 3.0 12.7 -1.0 18.6 0.6 18.6 4.9 18.6 9.2 12.1 13.7 9.6 15.2Z")}
+    h1{margin:0;font-family:Album,Georgia,serif;font-weight:500;font-size:clamp(3.5rem,5.1vw,5.8rem);line-height:.99;letter-spacing:-.048em}
+    h1 span{display:block}
+    h1 em{display:block;color:#f3c2b1;font-size:1.57em;font-weight:500;line-height:.94;letter-spacing:-.058em;margin:.005em 0 .065em}
+    .listen{display:inline-flex;align-items:center;justify-content:center;gap:11px;min-height:48px;margin-top:2rem;padding:.74rem 1.38rem;background:#ffecd6;border:1px solid #fff1df;color:#562035;border-radius:40px;text-decoration:none;font:550 .88rem/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 5px 15px #350f202d;transition:transform .22s,background .22s}
+    .listen:focus-visible{outline-color:#fff0dc}
+    @media(hover:hover){.listen:hover{transform:translateY(-3px);background:#fff6e9}}
+    @media(min-width:761px) and (min-aspect-ratio:19/10){
+      .album{min-height:max(600px,100svh)}
+      .print{width:min(var(--w),38vh)}.hands,.instant{width:min(var(--w),27vh)}
+      .summer,.evening{--y:26%}.instant,.kiss{--y:77%}
+    }
+    @media(max-width:760px), (max-width:920px) and (orientation:portrait){
+      .cover::after{inset:10px}
+      .album{min-height:max(670px,100svh)}
+      .album-date{top:max(24px,3.65%);font-size:.75rem;gap:9px}
+      .album-date::before,.album-date::after{width:22px}
+      .cover-signature{bottom:max(24px,3.45%);font-size:1.19rem}
+      .print{width:min(var(--w),20.5svh);padding:4px 4px 11px}
+      .summer{--x:20%;--y:22.5%;--w:35%;--angle:-10deg;--ratio:1.19}
+      .portrait{--x:50.5%;--y:19.5%;--w:35%;--angle:4.5deg;--ratio:1.15;z-index:3}
+      .evening{--x:81%;--y:22.8%;--w:34%;--angle:11deg;--ratio:1.15}
+      .instant{--x:18.8%;--y:78.1%;--w:31%;--angle:-9deg;--ratio:.95}
+      .kiss{--x:49.8%;--y:81.7%;--w:38%;--angle:-2deg;--ratio:1.25;z-index:3}
+      .hands{--x:81.2%;--y:78.5%;--w:30%;--angle:9deg;--ratio:.96}
+      .summer::after,.kiss::after{height:14px;top:-4px}
+      .flourish{margin-bottom:.7rem;gap:9px}
+      h1{font-size:clamp(2.9rem,min(11.5vw,6.75svh),4.3rem)}
+      h1 em{font-size:1.48em}
+      .listen{min-height:45px;margin-top:1.2rem;padding:.65rem 1.1rem}
+    }
+    @media(max-width:760px) and (max-height:700px){
+      .album{min-height:max(580px,100svh)}
+      .album-date{top:17px}.cover-signature{bottom:16px}
+      .dedication .flourish{display:none}
+      h1{font-size:clamp(2.55rem,10.9vw,3rem)}
+      .listen{margin-top:.85rem}
+    }
+    @media(max-height:520px) and (orientation:landscape){
+      .album{min-height:max(350px,100svh)}
+      .cover::after{inset:7px}
+      .album-date{top:15px}.cover-signature{bottom:12px;font-size:1rem}
+      .summer{--x:16%;--y:25%;--w:20%;--angle:-8deg}
+      .evening{--x:82%;--y:24%;--w:17%;--angle:7deg}
+      .hands{--x:10%;--y:64%;--w:12%;--angle:5deg}
+      .portrait{--x:90%;--y:61%;--w:16%;--angle:-4deg}
+      .instant{--x:25%;--y:77%;--w:12%;--angle:-8deg}
+      .kiss{--x:75%;--y:78%;--w:19%;--angle:5deg}
+      .print{width:min(var(--w),32svh)}
+      .dedication .flourish{display:none}h1{font-size:clamp(2.3rem,5vw,3.3rem)}
+      .listen{min-height:42px;margin-top:.8rem}
+    }
+    @media(prefers-reduced-motion:no-preference){.dedication{animation:appear .7s ease-out both}@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+    .listen{cursor:pointer}
+    [hidden]{display:none!important}
+    .voice-player{position:relative;margin-inline:auto;width:max-content;max-width:100%}
+    .voice-player audio{display:block;margin:1.2rem auto 0;width:min(260px,78vw)}
+    .voice-player.enhanced audio{display:none}
+    .play-mark{width:12px;height:14px;display:block;background:currentColor;clip-path:polygon(8% 0,100% 50%,8% 100%)}
+    .listen.is-playing .play-mark{clip-path:polygon(0 0,34% 0,34% 100%,66% 100%,66% 0,100% 0,100% 100%,0 100%)}
+    .transport{display:flex;align-items:center;justify-content:center;gap:8px;margin:2px auto 0;font:500 .76rem/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-variant-numeric:tabular-nums;color:#ffebda}
+    .transport input{width:clamp(72px,14vw,104px);height:28px;accent-color:#f4c4aa;cursor:pointer}
+    .voice-error{max-width:260px;margin:.5rem auto;color:#ffecd6;font-size:.9rem}
+    @media(max-height:700px) and (orientation:portrait){.dedication:has(.transport:not([hidden])) h1{font-size:clamp(2.2rem,9.5vw,2.8rem)}}
+  </style>
+</head>
+<body>
+  <main>
+    <section class="cover" aria-labelledby="dedication">
+      <div class="album">
+        <p class="album-date">27 ноября 2026</p>
+        <div class="collage">
+          <figure class="print summer"><img src="assets/summer.jpg" width="1100" height="825" alt="Вместе под летним небом"></figure>
+          <figure class="print portrait"><img src="assets/portrait.jpg" width="1100" height="825" alt="Портрет Оксаны на солнце"></figure>
+          <figure class="print evening"><img src="assets/evening.jpg" width="1100" height="825" alt="Вдвоём в вечернем свете"></figure>
+          <figure class="print hands"><img src="assets/hands.jpg" width="825" height="1100" alt="Наши руки"></figure>
+          <figure class="print instant"><img src="assets/instant.jpg" width="825" height="1100" alt="Маленький моментальный снимок в ладони"></figure>
+          <figure class="print kiss"><img src="assets/kiss.jpg" width="1100" height="825" alt="Наш поцелуй"></figure>
+        </div>
+        <div class="dedication">
+          <div class="flourish" aria-hidden="true"><i class="heart"></i></div>
+          <h1 id="dedication"><span>Самой красивой</span> <em>девочке</em> <span>на свете…</span></h1>
+          <div class="voice-player" id="voice-player">
+            <audio id="voice" controls preload="metadata" playsinline aria-label="Голосовое поздравление Вадима" src="assets/from-vadim-clean.m4a"></audio>
+            <button class="listen" type="button" aria-controls="voice" hidden><span class="play-mark" aria-hidden="true"></span><span class="listen-label">Послушай меня ♡</span></button>
+            <div class="transport" hidden>
+              <span class="elapsed" aria-hidden="true">0:00</span>
+              <input type="range" min="0" max="1" value="0" step="0.1" aria-label="Перемотать запись">
+              <span class="duration" aria-hidden="true"></span>
+            </div>
+            <p class="voice-error" role="status" hidden></p>
+          </div>
+        </div>
+        <p class="cover-signature">С любовью, от твоего Вадима</p>
+      </div>
+    </section>
+  </main>
+  <script>
+    const player = document.querySelector('#voice-player');
+    const audio = player.querySelector('audio');
+    const button = player.querySelector('button');
+    const label = button.querySelector('.listen-label');
+    const transport = player.querySelector('.transport');
+    const slider = transport.querySelector('input');
+    const elapsed = transport.querySelector('.elapsed');
+    const durationLabel = transport.querySelector('.duration');
+    const errorLabel = player.querySelector('.voice-error');
+    let started = false;
+
+    function formatTime(seconds) {
+      const whole = Math.floor(seconds);
+      return Math.floor(whole / 60) + ':' + String(whole % 60).padStart(2, '0');
+    }
+    function updateProgress() {
+      if (!Number.isFinite(audio.duration) || !audio.duration) return;
+      slider.max = audio.duration;
+      slider.value = audio.currentTime;
+      elapsed.textContent = formatTime(audio.currentTime);
+      durationLabel.textContent = formatTime(audio.duration);
+      slider.setAttribute('aria-valuetext', elapsed.textContent + ' из ' + durationLabel.textContent);
+    }
+    function updateButton() {
+      const playing = !audio.paused && !audio.ended;
+      if (playing) started = true;
+      button.classList.toggle('is-playing', playing);
+      label.textContent = playing ? 'Пауза' : audio.ended ? 'Послушать ещё раз ♡' : started ? 'Продолжить ♡' : 'Послушай меня ♡';
+      transport.hidden = !started;
+      updateProgress();
+    }
+    function useNativePlayer() {
+      player.classList.remove('enhanced');
+      button.hidden = true;
+      transport.hidden = true;
+      errorLabel.textContent = 'Если запись ещё не звучит, нажми ▶ в плеере.';
+      errorLabel.hidden = false;
+    }
+    button.addEventListener('click', () => {
+      if (!audio.paused && !audio.ended) {
+        audio.pause();
+        return;
+      }
+      if (audio.ended) audio.currentTime = 0;
+      audio.play().catch(error => { if (error.name !== 'AbortError') useNativePlayer(); });
+    });
+    slider.addEventListener('input', () => {
+      if (Number.isFinite(audio.duration)) audio.currentTime = Number(slider.value);
+    });
+    for (const event of ['play', 'pause', 'ended']) audio.addEventListener(event, updateButton);
+    for (const event of ['loadedmetadata', 'durationchange', 'timeupdate', 'seeked']) audio.addEventListener(event, updateProgress);
+    player.classList.add('enhanced');
+    button.hidden = false;
+  </script>
+</body>
+</html>
